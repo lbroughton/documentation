@@ -21,7 +21,7 @@ toc_mdlink: cs-how-install-geodrive2-client.md
 
 The GeoDrive 2.0 Client is a free application that runs on Windows and Windows Server, exposing UKCloud Cloud Storage as file systems. It’s designed as an easy way to use object storage by enabling Windows applications to interface with Cloud Storage servers using the popular S3 REST API.
 
-If you require a fully-integrated cloud gateway appliance with features like advanced deduplication and location caching, you may want to consider [CloudArrary](cs-how-install-cloudarray.md) as an alternative.
+If you require a fully-integrated cloud gateway appliance with features like advanced deduplication and location caching, you may want to consider [CloudArray](cs-how-install-cloudarray.md) as an alternative.
 
 > [!NOTE]
 > Unlike The GeoDrive 2.0 Client, CloudArray is not a free application.
@@ -106,13 +106,15 @@ The GeoDrive 2.0 Client offers a single caching option:
 
     ![Settings page](images/cs-ecs-installtion-step-three.png)
 
-13. Click the **Advanced** button to configure various thresholds, such as how long a local file will be retained before being replaced with a stub.
+13. If unticked, ensure the **Write all files and folders** box is checked, this will reduce listing times.
 
-14. Click **Next**  to get to the *Logging* page.
+14. Click the **Advanced** button to configure various thresholds, such as how long a local file will be retained before being replaced with a stub.
 
-15. Change the settings on the *Logging* page to meet your requirements.
+15. Click **Next**  to get to the *Logging* page.
 
-16. Click **Finish** to complete the wizard. The GeoDrive 2.0 connects to Cloud Storage and starts synchronising any content you put on the drive letter you assigned to it.
+16. Change the settings on the *Logging* page to meet your requirements.
+
+17. Click **Finish** to complete the wizard. The GeoDrive 2.0 connects to Cloud Storage and starts synchronising any content you put on the drive letter you assigned to it.
 
     ![Dashboard of GeoDrive 2.0](images/cs-ecs-installtion-step-four.png)
 
